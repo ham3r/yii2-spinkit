@@ -1,0 +1,23 @@
+{
+    "name": "ham3r/yii2-spinkit",
+    "description": "SpinKit asset for Yii2 framework (https://github.com/tobiasahlin/SpinKit)",
+    "keywords": ["spinkit", "asset", "yii2", "loading", "animation"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Łukasz Hamerszmidt",
+            "email": "packagist@ham3r.info"
+        }
+    ],
+     "autoload": {
+        "psr-4": {
+            "ham3r\\spinkit\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "^2.0.0",
+        "bower-asset/spinkit": "^1.2"
+    }
+}
